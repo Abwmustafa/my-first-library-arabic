@@ -55,7 +55,7 @@
   // Animal sounds: tapping an animal plays its sound (sounds/<name>.mp3) and makes it wiggle.
   var sounds = {}, playing = null;
   function sound(k) {
-    if (!sounds[k]) { sounds[k] = new Audio('sounds/' + k + '.mp3?v=ab633732'); sounds[k].preload = 'auto'; }
+    if (!sounds[k]) { sounds[k] = new Audio('sounds/' + k + '.mp3?v=40bee0aa'); sounds[k].preload = 'auto'; }
     return sounds[k];
   }
   function hush() { if (playing) { playing.pause(); playing = null; } }
@@ -77,8 +77,9 @@
   var sayBtn = document.getElementById('say');
   var recorded = !!book.querySelector('.p[data-voice]');
   function score(v) {
+    // Natural-sounding voices first, then Modern Standard Arabic (ar-SA, plain ar) over regional ones.
     return (/natural|online|neural|premium|enhanced/i.test(v.name) ? 4 : 0) + (/google/i.test(v.name) ? 2 : 0) +
-           (v.localService ? 1 : 0);
+           (/^ar([-_]sa)?$/i.test(v.lang) ? 2 : 0) + (v.localService ? 1 : 0);
   }
   function pickVoice() {
     if (!synth) return;
