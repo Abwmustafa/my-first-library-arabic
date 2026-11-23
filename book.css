@@ -45,7 +45,10 @@ body.library { background: #FFFDF7; min-height: 100%; }
 .stripes { display: flex; direction: rtl; height: 10px; margin: 26px -20px 0; border-radius: 5px; overflow: hidden; }
 .stripes span { flex: 1; }
 .shelf { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 26px 22px;
-         max-width: 1100px; margin: 0 auto; padding: 34px 22px 20px; direction: rtl; }
+         max-width: 1100px; margin: 0 auto; padding: 18px 22px 20px; direction: rtl; }
+.set { padding-top: 22px; }
+.set h2 { width: max-content; margin: 0 auto; background: #37474F; color: #fff; border-radius: 30px; padding: 2px 22px;
+          font-size: clamp(20px, 3.2vw, 26px); line-height: 1.6; }
 .book { position: relative; display: block; transition: transform .18s ease; }
 .book:hover, .book:focus-visible { transform: translateY(-4px) rotate(-1deg); outline: none; }
 .thumb { aspect-ratio: 1; border-radius: 6%; box-shadow: 0 2px 0 rgba(0,0,0,.06), 0 8px 22px rgba(38,50,56,.16); overflow: hidden; }
@@ -95,9 +98,15 @@ body.reader { background: radial-gradient(circle at 50% 40%, #FFFFFF 0, #ECEFF1 
            text-overflow: ellipsis; min-width: 0; }
 .endlink.home { background: #fff; color: #37474F; }
 .disc.animal { cursor: pointer; }
+.t.say { cursor: pointer; }
+.t.say.talking { animation: talk 1s ease-in-out infinite; }
+@keyframes talk { 0%, 100% { transform: none; } 50% { transform: scale(1.06); } }
+.say-btn svg { stroke: var(--acc); stroke-width: 2.4; }
+.say-btn.talking { background: var(--acc); }
+.say-btn.talking svg { stroke: #fff; }
 .disc.wiggle img { animation: wiggle .7s ease; transform-origin: 50% 65%; }
 @keyframes wiggle { 0% { transform: none; } 20% { transform: rotate(-8deg) scale(1.07); } 45% { transform: rotate(7deg) scale(1.09); }
                     70% { transform: rotate(-3deg) scale(1.04); } 100% { transform: none; } }
 .foot a { text-decoration: underline; }
 @media (max-height: 520px) { .bar h1 { font-size: 18px; } .bar { padding-top: 4px; padding-bottom: 4px; } .btn.big { width: 46px; height: 46px; } }
-@media (prefers-reduced-motion: reduce) { #book .p.on, .disc.wiggle img { animation: none !important; } .book { transition: none; } }
+@media (prefers-reduced-motion: reduce) { #book .p.on, .disc.wiggle img, .t.say.talking { animation: none !important; } .book { transition: none; } }

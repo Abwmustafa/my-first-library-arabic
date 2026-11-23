@@ -55,11 +55,12 @@
   // Animal sounds: tapping an animal plays its sound (sounds/<name>.mp3) and makes it wiggle.
   var sounds = {}, playing = null;
   function sound(k) {
-    if (!sounds[k]) { sounds[k] = new Audio('sounds/' + k + '.mp3?v=4068c323'); sounds[k].preload = 'auto'; }
+    if (!sounds[k]) { sounds[k] = new Audio('sounds/' + k + '.mp3?v=ab633732'); sounds[k].preload = 'auto'; }
     return sounds[k];
   }
   function hush() { if (playing) { playing.pause(); playing = null; } }
   function animal(d) {
+    stopTalk();
     d.classList.remove('wiggle'); void d.offsetWidth; d.classList.add('wiggle');
     var k = d.getAttribute('data-sound');
     if (!k) return;
@@ -70,6 +71,68 @@
     if (p && p.catch) p.catch(function () {});
     playing = a;
   }
+  // Pronunciation: the speaker button (or a tap on the word) says the words on the page. A recording
+  // (data-voice) is played when there is one; otherwise the device's Arabic voice reads the text (data-say).
+  var synth = window.speechSynthesis, arVoice = null, talkId = 0, voiceAudio = null;
+  var sayBtn = document.getElementById('say');
+  var recorded = !!book.querySelector('.p[data-voice]');
+  function score(v) {
+    return (/natural|online|neural|premium|enhanced/i.test(v.name) ? 4 : 0) + (/google/i.test(v.name) ? 2 : 0) +
+           (v.localService ? 1 : 0);
+  }
+  function pickVoice() {
+    if (!synth) return;
+    var vs = synth.getVoices().filter(function (v) { return /^ar([-_]|$)/i.test(v.lang); });
+    vs.sort(function (a, b) { return score(b) - score(a); });
+    arVoice = vs[0] || null;
+    updateSay();
+  }
+  function canSay(p) { return !!(p && p.getAttribute('data-say') && (p.getAttribute('data-voice') || arVoice)); }
+  function updateSay() {
+    sayBtn.hidden = !(arVoice || recorded);
+    sayBtn.disabled = !viewOf(cur).some(function (k) { return canSay(pages[k - 1]); });
+  }
+  function mark(p) {
+    book.querySelectorAll('.t.say.talking').forEach(function (e) { e.classList.remove('talking'); });
+    if (p) p.querySelectorAll('.t.say').forEach(function (e) { e.classList.add('talking'); });
+    sayBtn.classList.toggle('talking', !!p);
+  }
+  function stopTalk() {
+    talkId++;
+    if (synth) synth.cancel();
+    if (voiceAudio) { voiceAudio.pause(); voiceAudio = null; }
+    mark(null);
+  }
+  function tts(p, done) {
+    if (!synth || !arVoice) { done(); return; }
+    var u = new SpeechSynthesisUtterance(p.getAttribute('data-say'));
+    u.voice = arVoice; u.lang = arVoice.lang; u.rate = 0.8;
+    u.onend = done; u.onerror = done;
+    synth.speak(u);
+  }
+  function say(ks) {
+    hush(); stopTalk();
+    var id = talkId, list = ks.map(function (k) { return pages[k - 1]; }).filter(canSay), i = 0;
+    function step() {
+      if (id !== talkId) return;
+      if (i >= list.length) { mark(null); return; }
+      var p = list[i++], done = function () { if (id === talkId) step(); };
+      mark(p);
+      var src = p.getAttribute('data-voice');
+      if (src) {
+        voiceAudio = new Audio(src);
+        voiceAudio.onended = done;
+        var pr = voiceAudio.play();
+        if (pr && pr.catch) pr.catch(function () { tts(p, done); });
+      } else tts(p, done);
+    }
+    step();
+  }
+  if (synth) {
+    if (synth.addEventListener) synth.addEventListener('voiceschanged', pickVoice); else synth.onvoiceschanged = pickVoice;
+  }
+  sayBtn.addEventListener('click', function () { say(viewOf(cur)); });
+
   book.addEventListener('animationend', function (e) {
     var d = e.target.closest && e.target.closest('.disc.wiggle');
     if (d) d.classList.remove('wiggle');
@@ -89,6 +152,8 @@
     });
     layout();
     hush();
+    stopTalk();
+    updateSay();
     v.forEach(function (k) {     // load the sounds of the animals on view, so they play at once
       pages[k - 1].querySelectorAll('.disc[data-sound]').forEach(function (d) {
         if (d.getAttribute('data-sound')) sound(d.getAttribute('data-sound'));
@@ -132,6 +197,8 @@
     if (Math.abs(dx) < 8 && Math.abs(dy) < 8 && dt < 500) {    // a tap: left side = forward, right side = back
       var d = e.target.closest && e.target.closest('.disc.animal');
       if (d) { animal(d); return; }                              // ... unless it's on an animal
+      var w = e.target.closest && e.target.closest('.t.say'), wp = w && w.closest('.p');
+      if (wp && canSay(wp)) { say([+wp.getAttribute('data-n')]); return; }   // ... or on a word
       var r = stage.getBoundingClientRect();
       (e.clientX - r.left) < r.width / 2 ? next() : prev();
     }
@@ -150,4 +217,5 @@
   });
   var start = parseInt(location.hash.slice(1), 10);
   show(start >= 1 && start <= N ? start : 1, 0);
+  pickVoice();
 })();
