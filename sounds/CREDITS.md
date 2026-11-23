@@ -46,7 +46,6 @@ The clips are shared under the same licence as the recording they come from.
 | piano | [Piano acústico, acorde C.ogg](https://commons.wikimedia.org/wiki/File:Piano_ac%C3%BAstico%2C_acorde_C.ogg) | ZappaMidiPF (Wikimedia Commons) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | puppy | [Lapdog.ogg](https://commons.wikimedia.org/wiki/File:Lapdog.ogg) | 2C at English Wikipedia | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | rain | [Rain on puddle](https://bigsoundbank.com/rain-on-puddle-s1290.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| rattle | [Rattle toy](https://bigsoundbank.com/rattle-toy-s0371.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | rooster | [Rooster Song](https://bigsoundbank.com/song-of-rooster-s0283.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | sheep | [Sheep #1](https://bigsoundbank.com/sheep-1-s2343.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | snake | [Air leak](https://bigsoundbank.com/air-leak-s1486.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
