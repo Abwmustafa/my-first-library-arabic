@@ -1,0 +1,122 @@
+(function () {
+  var MM = 96 / 25.4;
+
+  // Library thumbnails: scale each cover to its box.
+  function fitThumbs() {
+    document.querySelectorAll('.fit').forEach(function (el) {
+      var w = el.parentNode.clientWidth;
+      el.style.transform = 'scale(' + (w / (parseFloat(el.dataset.w) * MM)) + ')';
+    });
+  }
+  if (!window.BOOK) {
+    fitThumbs();
+    addEventListener('resize', fitThumbs);
+    return;
+  }
+
+  // ---------------- reader
+  var book = document.getElementById('book'), stage = document.getElementById('stage');
+  var pages = [].slice.call(book.querySelectorAll('.p'));
+  var N = pages.length, seek = document.getElementById('seek'), where = document.getElementById('where');
+  var prevBtn = document.getElementById('prev'), nextBtn = document.getElementById('next');
+  var end = document.getElementById('end'), progress = document.querySelector('.progress');
+  var AR = '٠١٢٣٤٥٦٧٨٩';
+  function ar(n) { return String(n).replace(/[0-9]/g, function (d) { return AR[d]; }); }
+
+  var spread = false, cur = 1;   // cur = first page number shown
+
+  // In spread mode: page 1 alone, then (2,3), (4,5) ... and the last page alone.
+  function viewOf(n) {
+    if (!spread || n === 1 || n === N) return [n];
+    var a = n % 2 === 0 ? n : n - 1;
+    return a + 1 >= N ? [a] : [a, a + 1];
+  }
+  function stepNext(n) { var v = viewOf(n); return v[v.length - 1] + 1; }
+  function stepPrev(n) { var v = viewOf(n); return v[0] - 1 < 1 ? 0 : viewOf(v[0] - 1)[0]; }
+
+  function measure() {
+    var r = stage.getBoundingClientRect();
+    spread = r.width / r.height > 1.45 && r.width > 700;
+    book.classList.toggle('spread', spread);
+  }
+
+  function layout() {
+    var r = stage.getBoundingClientRect();
+    var v = viewOf(cur);
+    var w = (spread ? 2 : 1) * 120 * MM, h = 120 * MM;
+    var pad = Math.min(r.width, r.height) < 500 ? 12 : 28;
+    var s = Math.min((r.width - pad * 2) / w, (r.height - pad * 2) / h);
+    // a lone cover in spread mode keeps the spread's scale and sits on its own side
+    var shift = 0;
+    if (spread && v.length === 1) shift = (v[0] === 1 ? -1 : 1) * 120 * MM / 2;
+    book.style.transform = 'translate(-50%, -50%) translateX(' + (shift * s) + 'px) scale(' + s + ')';
+  }
+
+  function show(n, dir) {
+    if (n < 1) n = 1;
+    if (n > N) n = N;
+    measure();
+    cur = viewOf(n)[0];
+    var v = viewOf(cur);
+    pages.forEach(function (p, i) {
+      var k = i + 1, on = v.indexOf(k) >= 0;
+      p.classList.toggle('on', on);
+      p.classList.toggle('r', on && v.length === 2 && k === v[0]);
+      p.classList.toggle('l', on && v.length === 2 && k === v[1]);
+    });
+    layout();
+    book.classList.remove('turn-next', 'turn-prev');
+    if (dir) { void book.offsetWidth; book.classList.add(dir > 0 ? 'turn-next' : 'turn-prev'); }
+    var last = v[v.length - 1];
+    seek.value = cur;
+    where.textContent = v.length === 2 ? ar(v[0]) + '–' + ar(v[1]) + ' / ' + ar(N) : ar(v[0]) + ' / ' + ar(N);
+    prevBtn.disabled = cur <= 1;
+    nextBtn.disabled = last >= N;
+    end.hidden = last < N;
+    progress.hidden = !end.hidden;
+    history.replaceState(null, '', '#' + cur);
+  }
+
+  function next() { var n = stepNext(cur); if (n <= N) show(n, 1); }
+  function prev() { var n = stepPrev(cur); if (n >= 1) show(n, -1); }
+
+  seek.max = N;
+  seek.addEventListener('input', function () { show(+seek.value, 0); });
+  nextBtn.addEventListener('click', next);
+  prevBtn.addEventListener('click', prev);
+  addEventListener('keydown', function (e) {
+    if (e.target === seek) return;
+    if (e.key === 'ArrowLeft' || e.key === 'PageDown' || e.key === ' ') { e.preventDefault(); next(); }
+    else if (e.key === 'ArrowRight' || e.key === 'PageUp') { e.preventDefault(); prev(); }
+    else if (e.key === 'Home') show(1, -1);
+    else if (e.key === 'End') show(N, 1);
+  });
+
+  // Swipe: in an Arabic book you pull the page from left to right to go forward.
+  var x0 = null, y0 = 0, t0 = 0;
+  stage.addEventListener('pointerdown', function (e) { x0 = e.clientX; y0 = e.clientY; t0 = Date.now(); });
+  stage.addEventListener('pointerup', function (e) {
+    if (x0 === null) return;
+    var dx = e.clientX - x0, dy = e.clientY - y0, dt = Date.now() - t0;
+    x0 = null;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.2) { dx > 0 ? next() : prev(); return; }
+    if (Math.abs(dx) < 8 && Math.abs(dy) < 8 && dt < 500) {    // a tap: left side = forward, right side = back
+      var r = stage.getBoundingClientRect();
+      (e.clientX - r.left) < r.width / 2 ? next() : prev();
+    }
+  });
+
+  var fullBtn = document.getElementById('full');
+  if (!document.documentElement.requestFullscreen) fullBtn.hidden = true;
+  fullBtn.addEventListener('click', function () {
+    if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen();
+  });
+
+  addEventListener('resize', function () { show(cur, 0); });
+  addEventListener('hashchange', function () {
+    var n = parseInt(location.hash.slice(1), 10);
+    if (n >= 1 && n <= N && n !== cur) show(n, n > cur ? 1 : -1);
+  });
+  var start = parseInt(location.hash.slice(1), 10);
+  show(start >= 1 && start <= N ? start : 1, 0);
+})();
