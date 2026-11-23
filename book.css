@@ -94,5 +94,10 @@ body.reader { background: radial-gradient(circle at 50% 40%, #FFFFFF 0, #ECEFF1 
            border-radius: 30px; box-shadow: 0 2px 8px rgba(0,0,0,.18); white-space: nowrap; overflow: hidden;
            text-overflow: ellipsis; min-width: 0; }
 .endlink.home { background: #fff; color: #37474F; }
+.disc.animal { cursor: pointer; }
+.disc.wiggle img { animation: wiggle .7s ease; transform-origin: 50% 65%; }
+@keyframes wiggle { 0% { transform: none; } 20% { transform: rotate(-8deg) scale(1.07); } 45% { transform: rotate(7deg) scale(1.09); }
+                    70% { transform: rotate(-3deg) scale(1.04); } 100% { transform: none; } }
+.foot a { text-decoration: underline; }
 @media (max-height: 520px) { .bar h1 { font-size: 18px; } .bar { padding-top: 4px; padding-bottom: 4px; } .btn.big { width: 46px; height: 46px; } }
-@media (prefers-reduced-motion: reduce) { #book .p.on { animation: none !important; } .book { transition: none; } }
+@media (prefers-reduced-motion: reduce) { #book .p.on, .disc.wiggle img { animation: none !important; } .book { transition: none; } }

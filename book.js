@@ -52,6 +52,29 @@
     book.style.transform = 'translate(-50%, -50%) translateX(' + (shift * s) + 'px) scale(' + s + ')';
   }
 
+  // Animal sounds: tapping an animal plays its sound (sounds/<name>.mp3) and makes it wiggle.
+  var sounds = {}, playing = null;
+  function sound(k) {
+    if (!sounds[k]) { sounds[k] = new Audio('sounds/' + k + '.mp3?v=4068c323'); sounds[k].preload = 'auto'; }
+    return sounds[k];
+  }
+  function hush() { if (playing) { playing.pause(); playing = null; } }
+  function animal(d) {
+    d.classList.remove('wiggle'); void d.offsetWidth; d.classList.add('wiggle');
+    var k = d.getAttribute('data-sound');
+    if (!k) return;
+    var a = sound(k);
+    if (playing && playing !== a) playing.pause();
+    try { a.currentTime = 0; } catch (err) {}
+    var p = a.play();
+    if (p && p.catch) p.catch(function () {});
+    playing = a;
+  }
+  book.addEventListener('animationend', function (e) {
+    var d = e.target.closest && e.target.closest('.disc.wiggle');
+    if (d) d.classList.remove('wiggle');
+  });
+
   function show(n, dir) {
     if (n < 1) n = 1;
     if (n > N) n = N;
@@ -65,6 +88,12 @@
       p.classList.toggle('l', on && v.length === 2 && k === v[1]);
     });
     layout();
+    hush();
+    v.forEach(function (k) {     // load the sounds of the animals on view, so they play at once
+      pages[k - 1].querySelectorAll('.disc[data-sound]').forEach(function (d) {
+        if (d.getAttribute('data-sound')) sound(d.getAttribute('data-sound'));
+      });
+    });
     book.classList.remove('turn-next', 'turn-prev');
     if (dir) { void book.offsetWidth; book.classList.add(dir > 0 ? 'turn-next' : 'turn-prev'); }
     var last = v[v.length - 1];
@@ -101,6 +130,8 @@
     x0 = null;
     if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.2) { dx > 0 ? next() : prev(); return; }
     if (Math.abs(dx) < 8 && Math.abs(dy) < 8 && dt < 500) {    // a tap: left side = forward, right side = back
+      var d = e.target.closest && e.target.closest('.disc.animal');
+      if (d) { animal(d); return; }                              // ... unless it's on an animal
       var r = stage.getBoundingClientRect();
       (e.clientX - r.left) < r.width / 2 ? next() : prev();
     }
