@@ -55,7 +55,7 @@
   // Animal sounds: tapping an animal plays its sound (sounds/<name>.mp3) and makes it wiggle.
   var sounds = {}, playing = null;
   function sound(k) {
-    if (!sounds[k]) { sounds[k] = new Audio('sounds/' + k + '.mp3?v=6855571d'); sounds[k].preload = 'auto'; }
+    if (!sounds[k]) { sounds[k] = new Audio('sounds/' + k + '.mp3?v=dbeb34d4'); sounds[k].preload = 'auto'; }
     return sounds[k];
   }
   function hush() { if (playing) { playing.pause(); playing = null; } }
