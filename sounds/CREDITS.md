@@ -7,9 +7,12 @@ The clips are shared under the same licence as the recording they come from.
 | Sound | Recording | By | Licence |
 |---|---|---|---|
 | ball | [Ball rebounds](https://bigsoundbank.com/ball-rebounds-s1045.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| bark | [Barking dog](https://bigsoundbank.com/barking-dog-s0916.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| bear | [Grizzly bear sound effect.wav](https://commons.wikimedia.org/wiki/File:Grizzly_bear_sound_effect.wav) | Zagzav12 (Wikimedia Commons) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | bee | [Bumblebee #1](https://bigsoundbank.com/bumblebee-1-s1000.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | bell | [Small bell #1](https://bigsoundbank.com/small-bell-1-s0292.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | bicycle | [Bell bike #1](https://bigsoundbank.com/bell-bike-1-s0028.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| birdsong | [Wake birds #3](https://bigsoundbank.com/wake-birds-3-s0999.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | boil | [Small broth in a pot](https://bigsoundbank.com/small-broth-in-a-pot-s0492.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | brush | [Toothbrush](https://bigsoundbank.com/toothbrush-s0718.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | bubbles | [Water bubbles](https://bigsoundbank.com/water-bubbles-s0150.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
@@ -20,12 +23,14 @@ The clips are shared under the same licence as the recording they come from.
 | car | [Recent Car Horn #2](https://bigsoundbank.com/recent-car-horn-2-s0258.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | cat | [Little Meow of a Cat #1](https://bigsoundbank.com/little-meow-of-a-cat-s0494.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | chalk | [Chalk on blackboard](https://bigsoundbank.com/chalk-on-blackboard-s0541.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| cheer | [Applause 600 people](https://bigsoundbank.com/applause-600-people-s0021.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| cheer | [Applause (about 25-50 people) #1](https://bigsoundbank.com/applause-about-25-50-people-1-s0812.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | chick | [Chick #1](https://bigsoundbank.com/chick-1-stuffings-s0430.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | clock | [Clock](https://bigsoundbank.com/clock-s0007.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | cow | [Cow moos #3](https://bigsoundbank.com/cow-moos-3-s2383.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | cricket | [Field cricket](https://bigsoundbank.com/field-cricket-s1020.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| crow | [Carrion crow #1](https://bigsoundbank.com/carrion-crow-1-s3461.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | crunch | [Raw carrot crunched #1](https://bigsoundbank.com/raw-carrot-crunched-1-s1594.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| cymbals | [Cymbale 16 #3](https://bigsoundbank.com/cymbale-16-3-s2313.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | daf | [Riq demo.ogg](https://commons.wikimedia.org/wiki/File:Riq_demo.ogg) | Derbake (Wikimedia Commons) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | darbuka | [Darbuka.ogg](https://commons.wikimedia.org/wiki/File:Darbuka.ogg) | Cassa342 (Wikimedia Commons) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | dig | [Dig with a shovel](https://bigsoundbank.com/dig-with-a-shovel-s1305.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
@@ -33,6 +38,7 @@ The clips are shared under the same licence as the recording they come from.
 | donkey | [Donkey, braying #2](https://bigsoundbank.com/donkey-braying-2-s1550.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | doorbell | [Doorbell house #1](https://bigsoundbank.com/doorbell-house-1-s0159.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | dove | [Streptopelia decaocto - Eurasian Collared Dove - XC82758.ogg](https://commons.wikimedia.org/wiki/File:Streptopelia_decaocto_-_Eurasian_Collared_Dove_-_XC82758.ogg) | Jonathon Jongsma (xeno-canto XC82758) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| drill | [Drill](https://bigsoundbank.com/drill-s0184.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | duck | [Ducks](https://bigsoundbank.com/ducks-s0276.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | eagle | [Golden eagle.ogg](https://commons.wikimedia.org/wiki/File:Golden_eagle.ogg) | Bubulcus (Wikimedia Commons) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | elephant | [Elephant voice - trumpeting.ogg](https://commons.wikimedia.org/wiki/File:Elephant_voice_-_trumpeting.ogg) | Info-farmer (Wikimedia Commons) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
@@ -48,6 +54,7 @@ The clips are shared under the same licence as the recording they come from.
 | goat | [Bleating Goat #1](https://bigsoundbank.com/bleating-goat-1-s0279.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | grasshopper | [Insect song](https://bigsoundbank.com/insect-song-s1052.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | guitar | [Guitar exercise, beginner #1](https://bigsoundbank.com/guitar-exercise-beginner-1-s1563.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| hairdryer | [Hair dryer](https://bigsoundbank.com/hair-dryer-s2680.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | hammer | [Nail and hammer #1](https://bigsoundbank.com/nail-and-hammer-1-s0005.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | hedgehog | [Braunigel Drohgeräusche.ogg](https://commons.wikimedia.org/wiki/File:Braunigel_Drohger%C3%A4usche.ogg) | Richard Huber (Wikimedia Commons) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | helicopter | [Helicopter #1](https://bigsoundbank.com/helicopter-1-s0263.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
@@ -92,24 +99,35 @@ The clips are shared under the same licence as the recording they come from.
 | sharpener | [Sharpener](https://bigsoundbank.com/sharpener-s0051.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | sheep | [Sheep #1](https://bigsoundbank.com/sheep-1-s2343.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | ship | [Ocean Liner Horn #1](https://bigsoundbank.com/horn-of-a-ship-1-s0261.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| siren | [Ambulance siren #1](https://bigsoundbank.com/ambulance-siren-1-s1463.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | snake | [Air leak](https://bigsoundbank.com/air-leak-s1486.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | sniff | [Sniff](https://bigsoundbank.com/sniff-s0784.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | snore | [Snoring child](https://bigsoundbank.com/snoring-child-s1070.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| snow | [Steps in the snow #3](https://bigsoundbank.com/steps-in-the-snow-3-s3363.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | sparrow | [Joseph Sardin - Passer domesticus tschilp call.oga](https://commons.wikimedia.org/wiki/File:Joseph_Sardin_-_Passer_domesticus_tschilp_call.oga) | Joseph Sardin | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | splash | [Splash small #1](https://bigsoundbank.com/splash-small-1-s1529.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| stairs | [Step wooden staircase #1](https://bigsoundbank.com/step-wooden-staircase-1-s3212.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | steps | [Running in the tall grass](https://bigsoundbank.com/running-in-the-tall-grass-s1843.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| suitcase | [Suitcase](https://bigsoundbank.com/suitcase-s0802.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| swan | [Cygnus buccinator - Trumpeter Swan - XC96531.ogg](https://commons.wikimedia.org/wiki/File:Cygnus_buccinator_-_Trumpeter_Swan_-_XC96531.ogg) | Jonathon Jongsma (xeno-canto XC96531) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| sweep | [Straw broom](https://bigsoundbank.com/straw-broom-s0163.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | tap | [Faucet](https://bigsoundbank.com/faucet-s0042.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | thunder | [Thunder #2](https://bigsoundbank.com/thunder-2-s3113.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | tiger | [439280 schots angry-tiger.wav](https://commons.wikimedia.org/wiki/File:439280_schots_angry-tiger.wav) | schots (freesound.org) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| toaster | [Toaster](https://bigsoundbank.com/toaster-s0055.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| tractor | [Tractor #1](https://bigsoundbank.com/tractor-1-s0132.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | train | [Train Horn #3](https://bigsoundbank.com/train-horn-3-s2847.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | truck | [Truck Horn](https://bigsoundbank.com/truck-horn-s2721.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | trumpet | [Bugle: awake, morning call](https://bigsoundbank.com/bugle-awake-morning-call-s3263.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| tummy | [Stomach gurgling #1](https://bigsoundbank.com/stomach-gurgling-1-s1280.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | typing | [Quick keyboard](https://bigsoundbank.com/quick-keyboard-s1734.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | vacuum | [Carpet vacuum cleaner](https://bigsoundbank.com/carpet-vacuum-cleaner-s2695.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | violin | [Violin, 4 strings, beginner #1](https://bigsoundbank.com/violin-4-string-beginner-1-s1559.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | washer | [Washing machine in drying mode](https://bigsoundbank.com/washing-machine-in-drying-mode-s0106.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| waves | [Sea waves](https://bigsoundbank.com/sea-waves-s0266.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | whale | [Humpbackwhale2.ogg](https://commons.wikimedia.org/wiki/File:Humpbackwhale2.ogg) | Spyrogumas (Wikimedia Commons) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | whistle | [Plastic whistle](https://bigsoundbank.com/plastic-whistle-s1017.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | wolf | [Wolf howls.ogg](https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg) | unnamed (Wikimedia Commons) | Public domain |
 | xylophone | [Xylophone jingle.wav](https://commons.wikimedia.org/wiki/File:Xylophone_jingle.wav) | spazzo_1493 (freesound.org) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | zebra | [Grévys zebra (Sound Effects).ogg](https://commons.wikimedia.org/wiki/File:Gr%C3%A9vys_zebra_%28Sound_Effects%29.ogg) | DiegoC472 (Wikimedia Commons) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| zip | [Zipper #2](https://bigsoundbank.com/zipper-2-s0270.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
