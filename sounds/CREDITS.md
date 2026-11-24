@@ -23,7 +23,7 @@ The clips are shared under the same licence as the recording they come from.
 | car | [Recent Car Horn #2](https://bigsoundbank.com/recent-car-horn-2-s0258.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | cat | [Little Meow of a Cat #1](https://bigsoundbank.com/little-meow-of-a-cat-s0494.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | chalk | [Chalk on blackboard](https://bigsoundbank.com/chalk-on-blackboard-s0541.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| cheer | [Applause (about 25-50 people) #1](https://bigsoundbank.com/applause-about-25-50-people-1-s0812.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| cheer | [Applause 600 people](https://bigsoundbank.com/applause-600-people-s0021.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | chick | [Chick #1](https://bigsoundbank.com/chick-1-stuffings-s0430.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | clock | [Clock](https://bigsoundbank.com/clock-s0007.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | cow | [Cow moos #3](https://bigsoundbank.com/cow-moos-3-s2383.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
@@ -54,6 +54,7 @@ The clips are shared under the same licence as the recording they come from.
 | goat | [Bleating Goat #1](https://bigsoundbank.com/bleating-goat-1-s0279.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | grasshopper | [Insect song](https://bigsoundbank.com/insect-song-s1052.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | guitar | [Guitar exercise, beginner #1](https://bigsoundbank.com/guitar-exercise-beginner-1-s1563.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| gulp | [Drink from the gourd #3](https://bigsoundbank.com/drink-from-the-gourd-3-s3249.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | hairdryer | [Hair dryer](https://bigsoundbank.com/hair-dryer-s2680.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | hammer | [Nail and hammer #1](https://bigsoundbank.com/nail-and-hammer-1-s0005.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | hedgehog | [Braunigel Drohgeräusche.ogg](https://commons.wikimedia.org/wiki/File:Braunigel_Drohger%C3%A4usche.ogg) | Richard Huber (Wikimedia Commons) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
@@ -61,6 +62,7 @@ The clips are shared under the same licence as the recording they come from.
 | hen | [Annoyed Hen](https://bigsoundbank.com/annoyed-hen-s0453.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | hippo | [Hippopotamus sound effect.wav](https://commons.wikimedia.org/wiki/File:Hippopotamus_sound_effect.wav) | Zagzav12 (Wikimedia Commons) | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | hoopoe | [Upupa epops.ogg](https://commons.wikimedia.org/wiki/File:Upupa_epops.ogg) | Vladimir Yu. Arkhipov (Wikimedia Commons) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| hooray | [Applause (about 25-50 people) #1](https://bigsoundbank.com/applause-about-25-50-people-1-s0812.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | hop | [Jumping on Grass #1](https://bigsoundbank.com/jumping-on-grass-1-s1839.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | horse | [Neighing of a Horse #1](https://bigsoundbank.com/neighing-of-a-horse-1-s0284.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | houbara | [Tetrax tetrax - Little bustard.ogg](https://commons.wikimedia.org/wiki/File:Tetrax_tetrax_-_Little_bustard.ogg) | Bubulcus (Wikimedia Commons) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
@@ -90,6 +92,7 @@ The clips are shared under the same licence as the recording they come from.
 | police | [Siren french gendarmerie](https://bigsoundbank.com/siren-french-gendarmerie-s0886.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | pour | [Cold water in mug](https://bigsoundbank.com/cold-water-in-mug-s1156.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | puppy | [Lapdog.ogg](https://commons.wikimedia.org/wiki/File:Lapdog.ogg) | 2C at English Wikipedia | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| qanun | [ArabicQanunSample.ogg](https://commons.wikimedia.org/wiki/File:ArabicQanunSample.ogg) | Ariel Qassis (Wikimedia Commons) | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/) |
 | rain | [Rain on puddle](https://bigsoundbank.com/rain-on-puddle-s1290.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | rooster | [Rooster Song](https://bigsoundbank.com/song-of-rooster-s0283.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | running | [Horse Gallop](https://bigsoundbank.com/horse-gallop-s0611.html) | Joseph Sardin, BigSoundBank.com | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |

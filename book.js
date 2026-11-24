@@ -55,7 +55,7 @@
   // Animal sounds: tapping an animal plays its sound (sounds/<name>.mp3) and makes it wiggle.
   var sounds = {}, playing = null;
   function sound(k) {
-    if (!sounds[k]) { sounds[k] = new Audio('sounds/' + k + '.mp3?v=5221f1f7'); sounds[k].preload = 'auto'; }
+    if (!sounds[k]) { sounds[k] = new Audio('sounds/' + k + '.mp3?v=cd212d8e'); sounds[k].preload = 'auto'; }
     return sounds[k];
   }
   function hush() { if (playing) { playing.pause(); playing = null; } }
@@ -217,7 +217,7 @@
     burst(r.left + r.width / 2, r.top + r.height / 2);
     tones([[1046.5, 0, 0.45, 0.2], [1318.5, 0.09, 0.45, 0.2], [1568, 0.18, 0.5, 0.2], [2093, 0.27, 0.9, 0.22],
            [3136, 0.3, 0.6, 0.05, 'sine'], [4186, 0.36, 0.5, 0.04, 'sine']]);
-    var a = sound('cheer');
+    var a = sound('hooray');
     a.volume = 0.55;
     try { a.currentTime = 0; } catch (err) {}
     var p = a.play();
@@ -256,7 +256,7 @@
       pages[k - 1].querySelectorAll('.disc[data-sound]').forEach(function (d) {
         if (d.getAttribute('data-sound')) sound(d.getAttribute('data-sound'));
       });
-      if (pages[k - 1].querySelector('.choice')) sound('cheer');
+      if (pages[k - 1].querySelector('.choice')) sound('hooray');
     });
     book.classList.remove('turn-next', 'turn-prev');
     if (dir) { void book.offsetWidth; book.classList.add(dir > 0 ? 'turn-next' : 'turn-prev'); }
